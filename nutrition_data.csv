@@ -74,7 +74,6 @@ smoothie,60,1,0.3,14
 milkshake,160,4,5,25
 energy drink,45,0,0,11
 sports drink,20,0,0,5
-dal fry,116,9,3.3,16
 chole bhature,295,14,15,30
 pav bhaji,200,4,7,30
 samosa,262,5,17,24
@@ -121,3 +120,22 @@ kulfi,160,4,8,18
 mango lassi,140,4,2,25
 lassi,150,5,6,20
 pizza,45,3,6,23
+banana,89,1.1,0.3,23
+apple,52,0.3,0.2,14
+orange,47,0.9,0.1,12
+mango,60,0.8,0.4,15
+grapes,69,0.7,0.2,18
+pineapple,50,0.5,0.1,13
+watermelon,30,0.6,0.2,8
+cantaloupe,34,0.8,0.2,8
+guava,68,2.6,1,14
+lychee,66,0.8,0.4,17
+jackfruit,95,1.7,0.6,24
+custard apple,94,2.1,0.7,23
+sapota (chikoo),83,0.4,1.1,20
+dragon fruit,60,1.2,0,13
+passion fruit,97,2.2,0.4,23
+starfruit,31,1,0.3,7
+tangerine,53,0.8,0.3,13
+cranberries,46,0.4,0.1,12
+gooseberries,44,1,0.6,10
