@@ -1,23 +1,23 @@
 food_name,calories_per_100g,protein_per_100g,fat_per_100g,carbs_per_100g
 apricot,48,1.5,0.5,12
 avocado,160,2,15,9
-almonds,579,21,49,22
-cashews,553,18,44,30
+almond,579,21,49,22
+cashew,553,18,44,30
 peanut,567,25,49,16
-pistachios,562,21,45,28
-walnuts,654,15,65,14
-hazelnuts,628,14,61,17
-brazil nuts,659,14,66,12
-sunflower seeds,584,21,51,20
-pumpkin seeds,446,19,19,54
-flaxseeds,534,18,42,29
-chia seeds,486,17,31,42
-sesame seeds,573,18,49,23
+pistachio,562,21,45,28
+walnut,654,15,65,14
+hazelnut,628,14,61,17
+brazil nut,659,14,66,12
+sunflower seed,584,21,51,20
+pumpkin seed,446,19,19,54
+flaxseed,534,18,42,29
+chia seed,486,17,31,42
+sesame seed,573,18,49,23
 coconut,354,3.3,33.5,15.2
-dates,282,2.5,0.4,75
-raisins,299,3.1,0.5,79
-figs,249,3,0.9,64
-prunes,240,2.2,0.4,64
+date,282,2.5,0.4,75
+raisin,299,3.1,0.5,79
+fig,249,3,0.9,64
+prune,240,2.2,0.4,64
 applesauce,68,0.1,0.1,18
 peach,39,0.9,0.3,10
 plum,46,0.7,0.3,11
@@ -26,36 +26,36 @@ kiwi,61,1.1,0.5,14
 grapefruit,52,0.8,0.2,13
 papaya,43,0.5,0.3,11
 pomegranate,83,1.7,1.2,19
-cherries,50,1,0.3,12
-blueberries,57,0.7,0.3,14
-blackberries,43,1.3,0.5,9.6
-raspberries,52,1.5,0.6,11.9
+cherry,50,1,0.3,12
+blueberry,57,0.7,0.3,14
+blackberry,43,1.3,0.5,9.6
+raspberry,52,1.5,0.6,11.9
 strawberry jam,247,0.2,0.1,63
-green beans,31,2,0.1,7
+green bean,31,2,0.1,7
 asparagus,20,2.2,0.1,3.7
 zucchini,17,1.2,0.3,3.1
 bell pepper,20,1,0.2,4.7
 spinach,23,2.9,0.4,3.6
 kale,49,4.3,0.9,8.8
 cabbage,25,1.3,0.1,5.8
-brussels sprouts,43,3.4,0.3,9
+brussels sprout,43,3.4,0.3,9
 artichoke,47,3.3,0.2,10.5
 sweet potato,86,1.6,0.1,20.1
 beetroot,43,1.6,0.2,10
 pumpkin,26,1,0.1,6.5
 turnip,28,1,0.1,6.4
 radish,16,0.8,0.1,3.4
-mushrooms,22,3.1,0.3,3.3
+mushroom,22,3.1,0.3,3.3
 sweetcorn,96,3.4,1.5,21
 okra,33,2,0.2,7.5
 eggplant,25,1,0.2,5.9
-chili peppers,40,1.9,0.4,9.5
+chili pepper,40,1.9,0.4,9.5
 garlic,149,6.4,0.5,33.1
 ginger,80,1.8,0.8,17.8
 turmeric,312,9.7,3.3,67.1
 onion,40,1.1,0.1,9.3
-leeks,61,1.5,0.3,14
-shallots,72,2.5,0.1,16.8
+leek,61,1.5,0.3,14
+shallot,72,2.5,0.1,16.8
 parsnip,75,1.2,0.3,17.4
 celery,14,0.7,0.2,3
 carrot juice,39,0.9,0.1,9.6
@@ -109,7 +109,7 @@ kathi roll,310,10,14,40
 tandoori roti,210,6,4,40
 prawn masala,200,22,11,5
 fish curry,220,22,12,5
-kebabs,230,25,12,8
+kebab,230,25,12,8
 dal fry,118,7,4.5,18
 rasgulla,120,4,2,24
 gulab jamun,330,4,18,41
@@ -124,7 +124,7 @@ banana,89,1.1,0.3,23
 apple,52,0.3,0.2,14
 orange,47,0.9,0.1,12
 mango,60,0.8,0.4,15
-grapes,69,0.7,0.2,18
+grape,69,0.7,0.2,18
 pineapple,50,0.5,0.1,13
 watermelon,30,0.6,0.2,8
 cantaloupe,34,0.8,0.2,8
@@ -137,5 +137,5 @@ dragon fruit,60,1.2,0,13
 passion fruit,97,2.2,0.4,23
 starfruit,31,1,0.3,7
 tangerine,53,0.8,0.3,13
-cranberries,46,0.4,0.1,12
-gooseberries,44,1,0.6,10
+cranberry,46,0.4,0.1,12
+gooseberry,44,1,0.6,10
