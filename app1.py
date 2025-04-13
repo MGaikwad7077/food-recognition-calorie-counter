@@ -40,6 +40,19 @@ if dark_mode:
             color: #E0E0E0 !important;
             border: 1px solid #333333 !important;
         }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .stApp {
+                padding: 10px;
+            }
+            .stButton>button {
+                font-size: 14px;
+            }
+            .stFileUploader {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -64,6 +77,19 @@ else:
             background-color: #F0F0F0 !important;
             color: #000000 !important;
             border: 1px solid #CCCCCC !important;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .stApp {
+                padding: 10px;
+            }
+            .stButton>button {
+                font-size: 14px;
+            }
+            .stFileUploader {
+                width: 100%;
+                margin-top: 20px;
+            }
         }
         </style>
         """,
