@@ -24,7 +24,7 @@ if dark_mode:
         """
         <style>
         .stApp, body {
-            background-color: #121212;
+            background-color: #121232;
             color: #E0E0E0;
         }
         .stButton>button {
