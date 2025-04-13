@@ -75,10 +75,10 @@ dark_style = """
     <style>
     .stApp, body {
         background-color: #121313;
-        color: #E0E0E0;
+        color: #00C2FF;
     }
     h1, h2, h3, h4, h5, h6, label, .css-10trblm, .css-hxt7ib {
-        color: #E0E0E0 !important;
+        color: #00FFAB !important;
     }
     .stButton>button {
         background-color: #333333;
