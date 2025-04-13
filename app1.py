@@ -119,7 +119,7 @@ else:
     uploaded_file = st.file_uploader("Upload a food image", type=["jpg", "jpeg", "png"])
     
     if not uploaded_file:
-        st.info("Please upload an image to begin.")
+        st.info("Please upload an image of a single food batch to begin.")
     else:
         st.image(uploaded_file, caption="Uploaded Image", use_container_width=True)
 
