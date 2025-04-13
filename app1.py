@@ -11,6 +11,7 @@ nutrition_df = pd.read_csv("nutrition_data.csv")
 st.set_page_config(page_title="Food Recognition Calorie Counter", layout="centered")
 
 dark_mode = st.toggle("🌙 Dark Mode")
+st.title("🍕 Food Recognition & Calorie Counter")
 
 if dark_mode:
     st.markdown(
