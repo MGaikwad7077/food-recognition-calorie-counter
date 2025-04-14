@@ -23,7 +23,7 @@ health_quotes = [
 quote = random.choice(health_quotes)
 
 st.set_page_config(page_title="🍱 Food Recognition Calorie Counter", layout="centered")
-st.title("🍱💪Food Recognition Calorie Couter")
+st.title("🍱💪Food Recognition Calorie Counter")
 
 # Toggle for dark mode
 dark_mode = st.toggle("🌙 Dark Mode")
