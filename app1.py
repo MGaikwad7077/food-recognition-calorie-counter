@@ -98,20 +98,57 @@ dark_style = """
 light_style = """
     <style>
     .stApp, body {
-        background-color: #FFFFFF;
-        color: #000000;
+        background-color: #FFF5F7;
+        color: #4B2E2E;
+        font-family: 'Segoe UI', sans-serif;
     }
+
+    h1, h2, h3, h4, h5, h6, label {
+        color: #A14A4A;
+    }
+
     .stButton>button {
-        background-color: #4CAF50;
-        color: #FFFFFF;
+        background-color: #F4978E;
+        color: #ffffff;
+        border-radius: 12px;
+        padding: 10px 20px;
+        font-weight: bold;
+        border: none;
+        transition: 0.3s ease;
+        box-shadow: 0 4px 8px rgba(244, 151, 142, 0.3);
     }
+
     .stButton>button:hover {
-        background-color: #45A049;
+        background-color: #F08080;
+        box-shadow: 0 6px 12px rgba(244, 128, 128, 0.4);
     }
+
     input, .stNumberInput input, .stTextInput>div>input {
-        background-color: #F0F0F0 !important;
-        color: #000000 !important;
-        border: 1px solid #CCCCCC !important;
+        background-color: #FFEAEA !important;
+        color: #4B2E2E !important;
+        border: 1px solid #F7A1A1 !important;
+        border-radius: 10px !important;
+        padding: 12px !important;
+        font-size: 16px;
+    }
+
+    .stFileUploader {
+        background-color: #FFF0F2;
+        border: 2px dashed #F7A1A1;
+        padding: 16px;
+        border-radius: 12px;
+        transition: 0.3s ease;
+    }
+
+    .stFileUploader:hover {
+        background-color: #FFE5E9;
+        border-color: #F4978E;
+    }
+
+    .stAlert {
+        border-radius: 10px;
+        padding: 10px 15px;
+        font-weight: 500;
     }
     </style>
 """
