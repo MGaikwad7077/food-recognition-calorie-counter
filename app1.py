@@ -226,7 +226,7 @@ def calorie_counter_page():
 
     st.markdown(base_style, unsafe_allow_html=True)
     st.markdown(dark_style if dark_mode else light_style, unsafe_allow_html=True)
-    st.title("🍱💪Food Recognition Calorie Counter")
+    st.title("🍱Food Recognition Calorie Counter")
     # Show health quote
     st.markdown(f"**💬 {quote}**")
 
