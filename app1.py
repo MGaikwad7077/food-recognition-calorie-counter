@@ -16,21 +16,7 @@ health_quotes = [
     "🌿 Good health is not something we can buy. However, it can be an extremely valuable savings account.",
     "🥗 Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship.",
     "🏃‍♂️ Take care of your body, it’s the only place you have to live.",
-    "💧 Eat to live, don’t live to eat.",
-    "🍇 Let food be thy medicine, and medicine be thy food.",
-    "🌱 The first wealth is health.",
-    "💚 Health is not just about what you’re eating. It’s also about what you’re thinking and saying.",
-    "🍓 Your body deserves the best, so treat it with love and care.",
-    "🌞 Health is a state of complete harmony of the body, mind, and spirit.",
-    "🍊 The greatest medicine of all is teaching people how not to need it.",
-    "🍉 A healthy mind in a healthy body is the true foundation of happiness.",
-    "🌻 To enjoy the glow of good health, you must exercise.",
-    "🥑 If you don’t take care of your body, where will you live?",
-    "🌼 The groundwork for all happiness is good health.",
-    "🥦 Your health is an investment, not an expense.",
-    "🍒 The body achieves what the mind believes.",
-    "🥥 The only bad workout is the one that didn’t happen.",
-    "🌽 Health is the crown on the well person’s head that only the ill person can see."
+    "💧 Eat to live, don’t live to eat."
 ]
 
 # Pick a random quote
@@ -160,10 +146,35 @@ st.markdown(dark_style if dark_mode else light_style, unsafe_allow_html=True)
 st.markdown(f"**💬 {quote}**")
 
 # Mode Selection
-mode = st.radio("Choose Mode", ("Image Recognition", "Manual Input"))
+mode = st.radio("Choose Mode", ("Image Recognition", "Manual Input", "BMI Calculator"))
 
-# Manual Input Mode
-if mode == "Manual Input":
+# Functions for each mode
+def bmi_calculator():
+    def calculate_bmi(weight, height):
+        return weight / (height ** 2)
+
+    st.title("BMI Calculator")
+    
+    # Get user inputs for weight and height
+    weight = st.number_input("Enter your weight (kg)", min_value=1.0, step=0.1)
+    height = st.number_input("Enter your height (m)", min_value=0.5, step=0.01)
+    
+    # Calculate BMI if inputs are provided
+    if weight > 0 and height > 0:
+        bmi = calculate_bmi(weight, height)
+        st.write(f"Your BMI is: {bmi:.2f}")
+        
+        # Categorize the result
+        if bmi < 18.5:
+            st.write("Category: Underweight")
+        elif 18.5 <= bmi < 24.9:
+            st.write("Category: Normal weight")
+        elif 25 <= bmi < 29.9:
+            st.write("Category: Overweight")
+        else:
+            st.write("Category: Obese")
+
+def manual_input_mode():
     food_name = st.text_input("Enter the food item", "").strip()
 
     if food_name:
@@ -185,8 +196,7 @@ if mode == "Manual Input":
                 st.write(f"• **Fat**: {(qty/100)*fat:.2f} g")
                 st.write(f"• **Carbs**: {(qty/100)*carbs:.2f} g")
 
-# Image Recognition Mode
-else:
+def image_recognition_mode():
     uploaded_file = st.file_uploader("Upload a food image", type=["jpg", "jpeg", "png"])
     
     if not uploaded_file:
@@ -228,3 +238,11 @@ else:
                     st.write(f"• **Protein**: {(qty/100)*prot:.2f} g")
                     st.write(f"• **Fat**: {(qty/100)*fat:.2f} g")
                     st.write(f"• **Carbs**: {(qty/100)*carbs:.2f} g")
+
+# Call the function based on selected mode
+if mode == "BMI Calculator":
+    bmi_calculator()
+elif mode == "Manual Input":
+    manual_input_mode()
+else:
+    image_recognition_mode()
