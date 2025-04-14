@@ -46,7 +46,7 @@ def health_status(score):
     elif score >= 60:
         return "⚠️ Average"
     else:
-        return "😴 Needs Improvement"
+        return "😴 Needs Improvement or put proper inputs"
 
 def health_score_summary_page():
     st.title("🏥 Health Score Summary")
@@ -68,9 +68,6 @@ def health_score_summary_page():
         # Display health score bar
         st.progress(score)
 
-    # Navigation to Calorie Counter Page
-    if st.button("Go to Calorie Counter"):
-        st.experimental_rerun()  # Trigger rerun or redirect to calorie counter page
 
 # Calorie Counter Functions
 API_KEY = "909b717649c44532b04dd6717c12b877"
