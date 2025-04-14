@@ -228,7 +228,7 @@ def calorie_counter_page():
     st.markdown(f"**💬 {quote}**")
 
     # Mode Selection
-    mode = st.radio("Choose Mode", ("Image Recognition", "Manual Input", "BMI Calculator"))
+    mode = st.radio("Choose Mode", ("Food Recognition & Calorie Counter", "Manual Input", "BMI Calculator"))
 
     # Functions for each mode
     def bmi_calculator():
